@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import Welcome from './Welcome.js'
 ReactDOM.render(
-  <h1>Hi, World!</h1>,
-  document.getElementById('root2')
-);
+  <Welcome name="frank"/>,
+  document.getElementById('root')
+)
