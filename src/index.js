@@ -5,6 +5,6 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import Welcome from './Welcome.js'
 ReactDOM.render(
-  <Welcome name="frank"/>,
+  <Welcome name='frank'  />,
   document.getElementById('root')
 )
